@@ -33,17 +33,7 @@
 
     @yield('content')
 
-    {{-- Footer --}}
-    <footer>
-        <hr>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Charlie Hebert 2014</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    @include('layouts.partials.footer')
 
     {{-- jQuery --}}
     <script src="js/jquery.js"></script>
