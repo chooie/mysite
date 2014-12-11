@@ -40,6 +40,12 @@
                         <i class="fa fa-github-square"></i>
                     </a>
                 </li>
+                <li>
+                    <a class="btn btn-social-icon btn-linkedin social-icons"
+                       href="https://linkedin.com/pub/charlie-hebert/53/32b/891/">
+                        <i class="fa fa-linkedin-square"></i>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
