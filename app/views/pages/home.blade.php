@@ -32,7 +32,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="section-heading">What can I do?</h1>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 text-info">
                             <h3>Strong</h3>
                             <ul>
                                 <li>Web Dev</li>
@@ -57,7 +57,7 @@
                                 </ul>
                             </ul>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 text-warning">
                             <h3>Proficient</h3>
                             <ul>
                                 <li>Web Dev</li>
