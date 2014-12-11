@@ -51,6 +51,17 @@ App::error(function(Exception $exception, $code)
 	Log::error($exception);
 });
 
+App::error(function($exception, $code)
+{
+    switch ($code)
+    {
+        case 404:
+            return Response::view('errors.404', array(), 404);
+        default:
+            return Response::view('errors.default', array(), $code);
+    }
+});
+
 /*
 |--------------------------------------------------------------------------
 | Maintenance Mode Handler
