@@ -11,7 +11,7 @@
     @yield('head')
 
     {{ HTML::style("css/bootstrap.min.css") }}
-    {{ HTML::style("css/full-width-pics.css") }}
+    {{ HTML::style("css/main.css") }}
     {{--
         Finally figured out why favicon isn't working. Add query string to the end
         to force browser to refresh favicon.
@@ -34,6 +34,7 @@
 
     {{-- Footer --}}
     <footer>
+        <hr>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

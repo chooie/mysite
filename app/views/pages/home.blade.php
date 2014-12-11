@@ -5,37 +5,110 @@
 @stop
 
 @section('content')
-    {{-- Full Width Image Header with Logo --}}
-    {{-- Image backgrounds are set within the full-width-pics.css file. --}}
-    <header class="image-bg-fluid-height">
-        {{-- <img class="img-responsive img-center" src="{{ $gravatar }}" alt=""> --}}
-    </header>
 
     {{-- Content Section --}}
     <section>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="section-heading">Section Heading</h1>
-                    <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+                    <h1 class="section-heading">Hi, I'm Charlie.</h1>
+                    <p class="lead section-lead">I'm a 3rd year Computer Science and Business student
+                    at Trinity College Dublin. I am particularly interested in <span class="text-info">
+                    web development</span> and <span class="text-info">entrepreneurship</span> and
+                    currently I'm working on improving my skills in these areas as much as possible.</p>
+                    <p class="lead section-lead">The purpose of this site is to keep a record of what I've
+                    been up to and what I'm currently working on.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    {{-- Fixed Height Image Aside --}}
-    {{-- Image backgrounds are set within the full-width-pics.css file. --}}
-    <aside class="image-bg-fixed-height"></aside>
+    {{-- Content Section --}}
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="section-heading">What can I do?</h1>
+                    <h3>Strong</h3>
+                    <ul>
+                        <li>Web Dev</li>
+                        <ul>
+                            <li>HTML5 & CSS3</li>
+                            <li>PHP & Laravel Framework</li>
+
+                        </ul>
+                        <li>Enterprise</li>
+                        <ul>
+                            <li>Java</li>
+                        </ul>
+                        <li>Core</li>
+                        <ul>
+                            <li>OOP</li>
+                            <li>Database Design</li>
+                            <li>Package Management</li>
+                        </ul>
+                        <li>Tools</li>
+                        <ul>
+                            <li>CLI</li>
+                        </ul>
+                    </ul>
+                    <h3>Proficient</h3>
+                    <ul>
+                        <li>Web Dev</li>
+                        <ul>
+                            <li>Javascript</li>
+                        </ul>
+                        <li>Enterprise</li>
+                        <ul>
+                            <li>C</li>
+                        </ul>
+                        <li>Core</li>
+                        <ul>
+                            <li>Algorithms and Data Structures</li>
+                        </ul>
+                        <li>Tools</li>
+                        <ul>
+                            <li>Git</li>
+                            <li>PHPStorm</li>
+                            <li>Vagrant (with Laravel Homestead)</li>
+                            <li>Composer</li>
+                            <li>MAMP</li>
+                            <li>Eclipse</li>
+                            <li>Sequel Pro</li>
+                            <li>Atom</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
     {{-- Content Section --}}
     <section>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="section-heading">Section Heading</h1>
-                    <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+                    <h1 class="section-heading">What am I working on?</h1>
+                    <ul>
+                        <li>Javascript</li>
+                        <ul>
+                            <p>Currently working through a <a href="http://eloquentjavascript.net/">
+                            great book </a>that covers the fundamentals of the Javascript language
+                            and its current ecosystem.<p>
+
+                            <p>Once complete, I hope to get stuck into Node and one of the popular
+                            frontend frameworks like Ember or Backbone.</p>
+                        </ul>
+
+                        <li>Back-End Development</li>
+                        <ul>
+                            <li>Absorbing all things Laravel. <a href="https://laracasts.com/">Laracasts </a>
+                            is a fantastic resource.</li>
+                            <li>Scouring the internet for interesting packages.</li>
+                            <li>Working on improving my OOP. Currently going through
+                            <a href="http://www.poodr.com/">this </a> great resource.</li>
+                        </ul>
+                    </ul>
                 </div>
             </div>
         </div>
