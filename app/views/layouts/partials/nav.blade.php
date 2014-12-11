@@ -24,6 +24,23 @@
                     {{ link_to_route('contact', 'Contact', null, null) }}
                 </li>
             </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/Chewy223">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/CharlieHebert92">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="btn btn-social-icon btn-github" href="https://github.com/chooie">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
 </nav>

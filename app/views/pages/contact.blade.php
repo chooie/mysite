@@ -5,5 +5,9 @@
 @stop
 
 @section('content')
-More to come.
+<section>
+    <div class="container">
+        <p class="lead section-lead">More to come.</p>
+    </div>
+</section>
 @stop

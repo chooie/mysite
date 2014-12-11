@@ -12,6 +12,7 @@
 
     {{ HTML::style("css/bootstrap.min.css") }}
     {{ HTML::style("css/main.css") }}
+    {{ HTML::style("font-awesome-4.2.0/css/font-awesome.min.css") }}
     {{--
         Finally figured out why favicon isn't working. Add query string to the end
         to force browser to refresh favicon.
