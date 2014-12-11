@@ -26,18 +26,18 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/Chewy223">
-                        <i class="fa fa-facebook"></i>
+                    <a class="btn btn-social-icon btn-facebook social-icons" href="https://www.facebook.com/Chewy223">
+                        <i class="fa fa-facebook-square"></i>
                     </a>
                 </li>
                 <li>
-                    <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/CharlieHebert92">
-                        <i class="fa fa-twitter"></i>
+                    <a class="btn btn-social-icon btn-twitter social-icons" href="https://twitter.com/CharlieHebert92">
+                        <i class="fa fa-twitter-square"></i>
                     </a>
                 </li>
                 <li>
-                    <a class="btn btn-social-icon btn-github" href="https://github.com/chooie">
-                        <i class="fa fa-github"></i>
+                    <a class="btn btn-social-icon btn-github social-icons" href="https://github.com/chooie">
+                        <i class="fa fa-github-square"></i>
                     </a>
                 </li>
             </ul>
