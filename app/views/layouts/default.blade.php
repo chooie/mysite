@@ -12,7 +12,7 @@
 
     {{ HTML::style("css/bootstrap.min.css") }}
     {{ HTML::style("css/full-width-pics.css") }}
-    <link rel="shortcut icon" href="{{ URL::to('favicon.ico') }}">
+     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
 
     {{-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --}}
     {{-- WARNING: Respond.js doesn't work if you view the page via file:// --}}
