@@ -12,7 +12,11 @@
 
     {{ HTML::style("css/bootstrap.min.css") }}
     {{ HTML::style("css/full-width-pics.css") }}
-     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
+    {{--
+        Finally figured out why favicon isn't working. Add query string to the end
+        to force browser to refresh favicon.
+    --}}
+     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}?v=2" type="image/x-icon">
 
     {{-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --}}
     {{-- WARNING: Respond.js doesn't work if you view the page via file:// --}}
