@@ -11,7 +11,22 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+Route::get('/', [
+    'as' => 'home',
+    'uses' => 'PagesController@home'
+]);
+
+Route::get('portfolio', [
+    'as' => 'portfolio',
+    'uses' => 'PagesController@portfolio'
+]);
+
+Route::get('blog', [
+    'as' => 'blog',
+    'uses' => 'PagesController@blog'
+]);
+
+Route::get('contact', [
+    'as' => 'contact',
+    'uses' => 'PagesController@contact'
+]);
