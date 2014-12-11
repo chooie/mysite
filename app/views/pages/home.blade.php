@@ -53,7 +53,7 @@
                                 </ul>
                                 <li>Tools</li>
                                 <ul>
-                                    <li>CLI</li>
+                                    <li>Shell</li>
                                 </ul>
                             </ul>
                         </div>
