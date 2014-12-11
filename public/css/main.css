@@ -12,4 +12,6 @@ body {
 
 li a.social-icons {
     padding: 15px 19.50px 15px 19.50px;
+    float: left;
+    text-align: left;
 }
