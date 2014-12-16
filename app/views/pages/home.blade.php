@@ -15,8 +15,8 @@
                     <div class="col-lg-12">
                         <h1 class="section-heading">Hi, I'm Charlie.</h1>
                         <p class="lead section-lead">I'm a 3rd year Computer Science and Business student
-                        at Trinity College Dublin. I am particularly interested in <span class="text-info">
-                        web development</span> and <span class="text-info">entrepreneurship</span>.
+                        at Trinity College Dublin. I am particularly interested in <b>
+                        web development</b> and <b>entrepreneurship</b>.
                         I'm currently working on improving my skills in these areas as much as possible,
                         in addition to my studies.</p>
                         <p class="lead section-lead">The purpose of this site is to keep a record of what I've
