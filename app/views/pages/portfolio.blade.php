@@ -15,7 +15,7 @@
                 is obviously not functional as a fully-fledged e-commerce site but it was a great learning
                 experience.</p>
                 <p class="lead section-lead">
-                    You can find it <a href="http://shop.charliehebert.com">here</a>.
+                    You can find it <a href="http://shop.charliehebert.com" target="_blank">here</a>.
                 </p>
             </div>
         </div>

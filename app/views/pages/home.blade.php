@@ -38,12 +38,8 @@
                                 <li>Web Dev</li>
                                 <ul>
                                     <li>HTML5 & CSS3</li>
-                                    <li>PHP & Laravel Framework</li>
-
-                                </ul>
-                                <li>Enterprise</li>
-                                <ul>
-                                    <li>Java</li>
+                                    <li>Javascript</li>
+                                    <li>PHP (Laravel Framework)</li>
                                 </ul>
                                 <li>Core</li>
                                 <ul>
@@ -62,11 +58,11 @@
                             <ul>
                                 <li>Web Dev</li>
                                 <ul>
-                                    <li>Javascript</li>
-                                    <li>MySQL (and other relational databases)</li>
+                                    <li>SQL - MySQL (and other relational databases)</li>
                                 </ul>
                                 <li>Enterprise</li>
                                 <ul>
+                                    <li>Java</li>
                                     <li>C</li>
                                 </ul>
                                 <li>Core</li>
@@ -100,19 +96,18 @@
                         <ul>
                             <li>Javascript</li>
                             <ul>
-                                <p>Currently working through a <a href="http://eloquentjavascript.net/">
-                                great book </a>that covers the fundamentals of the Javascript language
-                                and its current ecosystem. Once complete, I hope to get stuck into Node
-                                and one of the popular frontend frameworks like Ember or Backbone.</p>
+                                <p>Currently working through a <a href="http://amzn.to/1C6Uf4S" target="_blank">
+                                great resource</a> that covers Javascript at an advanced level. Once complete,
+                                I hope to get stuck into Node and eventually Meteor.</p>
                             </ul>
 
                             <li>Back-End Development</li>
                             <ul>
-                                <li>Absorbing all things Laravel. <a href="https://laracasts.com/">Laracasts </a>
-                                is a fantastic resource.</li>
+                                <li>Absorbing all things Laravel. <a href="https://laracasts.com/" target="blank">
+                                Laracasts </a> is a fantastic resource.</li>
                                 <li>Scouring the internet for interesting packages.</li>
                                 <li>Working on improving my OOP. Currently going through
-                                <a href="http://www.poodr.com/">this </a> great resource.</li>
+                                <a href="http://www.poodr.com/" target="_blank">this</a> great resource.</li>
                             </ul>
                         </ul>
                     </div>
