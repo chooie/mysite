@@ -96,7 +96,7 @@
                         <ul>
                             <li>Javascript</li>
                             <ul>
-                                <p>Currently working through a <a href="http://amzn.to/1C6Uf4S" target="_blank">
+                                <p>Currently working through a <a href="http://www.amazon.co.uk/Professional-JavaScript-Developers-Wrox-Guides/dp/1118026691" target="_blank">
                                 great resource</a> that covers Javascript at an advanced level. Once complete,
                                 I hope to get stuck into Node and eventually Meteor.</p>
                             </ul>
