@@ -107,7 +107,7 @@
                                 Laracasts </a> is a fantastic resource.</li>
                                 <li>Scouring the internet for interesting packages.</li>
                                 <li>Working on improving my OOP. Currently going through
-                                <a href="http://www.poodr.com/" target="_blank">this</a> great resource.</li>
+                                <a href="http://www.poodr.com/" target="_blank">this</a> fantastic book.</li>
                             </ul>
                         </ul>
                     </div>
