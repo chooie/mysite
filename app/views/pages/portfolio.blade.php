@@ -39,7 +39,7 @@
         </p>
 
         <p class="lead section-lead">
-          Check out the source code <a href="https://github.com/chooie/mysite">here</a>.
+          Check out the source code <a href="https://github.com/chooie/shop">here</a>.
         </p>
       </div>
     </div>
