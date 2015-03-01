@@ -8,7 +8,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-8">
+      <div class="col-lg-8 center-block center-row">
         <h1 class="section-heading">Clock.js</h1>
 
         <p class="lead section-lead">
@@ -26,7 +26,7 @@
     </div>
 
     <div class="row">
-      <div class="col-lg-8">
+      <div class="col-lg-8 center-block center-row">
         <h1 class="section-heading">E-Commerce Site</h1>
 
         <p class="lead section-lead"> A group university assignment. I was responsible for
@@ -45,7 +45,7 @@
     </div>
 
     <div class="row">
-      <div class="col-lg-8">
+      <div class="col-lg-8 center-block center-row">
         <h1 class="section-heading">This Site</h1>
 
         <p class="lead section-lead"> The site you're on now!</p>
