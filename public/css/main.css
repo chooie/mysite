@@ -28,3 +28,7 @@ li a.social-icons {
 .center {
     margin: auto;
 }
+
+.center-row {
+    float: none;
+}

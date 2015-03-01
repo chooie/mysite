@@ -2,6 +2,8 @@
 
 @section('head')
   <title>Charlie Hebert</title>
+
+  {{ HTML::style("css/particles.css") }}
 @stop
 
 @section('content')
@@ -12,7 +14,7 @@
       <section>
         <div class="container">
           <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-8 center-block center-row">
               <h1 class="section-heading">Hi, I'm Charlie.</h1>
 
               <p class="lead section-lead">I'm a 3rd year Computer Science and Business student
@@ -32,7 +34,7 @@
       <section>
         <div class="container">
           <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-8 center-block center-row">
               <h1 class="section-heading">What can I do?</h1>
 
               <div class="col-lg-6 text-info">
@@ -90,11 +92,21 @@
         </div>
       </section>
 
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 center-block center-row">
+              <div id="particles-js"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {{-- Content Section --}}
       <section>
         <div class="container">
           <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-8 center-block center-row">
               <h1 class="section-heading">What am I working on?</h1>
               <ul>
                 <li>Javascript</li>
@@ -123,4 +135,71 @@
       </section>
     </div>
   </div>
+@stop
+
+@section('scripts')
+  <script src="js/particles.min.js"></script>
+  <script>
+    particlesJS('particles-js', {
+      particles: {
+        color: '#CFD8DC',
+        color_random: false,
+        shape: 'circle', // "circle", "edge" or "triangle"
+        opacity: {
+          opacity: 1,
+          anim: {
+            enable: false,
+            speed: 0.5,
+            opacity_min: 0,
+            sync: false
+          }
+        },
+        size: 1.5,
+        size_random: true,
+        nb: 20,
+        line_linked: {
+          enable_auto: true,
+          distance: 140,
+          color: '#CFD8DC',
+          opacity: 1,
+          width: 1,
+          condensed_mode: {
+            enable: false,
+            rotateX: 600,
+            rotateY: 600
+          }
+        },
+        anim: {
+          enable: true,
+          speed: 1
+        }
+      },
+      interactivity: {
+        enable: true,
+        mouse: {
+          distance: 250
+        },
+        detect_on: 'canvas', // "canvas" or "window"
+        mode: 'grab', // "grab" of false
+        line_linked: {
+          opacity: .5
+        },
+        events: {
+          onclick: {
+            enable: true,
+            mode: 'push', // "push" or "remove"
+            nb: 1
+          },
+          onresize: {
+            enable: true,
+            mode: 'out', // "out" or "bounce"
+            density_auto: false,
+            density_area: 800
+          }
+        }
+      },
+      /* Retina Display Support */
+      retina_detect: true
+    });
+  </script>
 @stop

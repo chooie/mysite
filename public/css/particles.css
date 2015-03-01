@@ -1,0 +1,10 @@
+canvas{
+    display:block;
+    vertical-align:bottom;
+}
+
+#particles-js{
+    height: 100px;
+    width: 100%;
+    background: #2c3e50;
+}
