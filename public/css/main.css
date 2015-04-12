@@ -1,19 +1,74 @@
 body {
-    padding-top: 70px;
+    padding-top: 40px;
+    font-size: 16px;
 }
 
+/* Default navbar stuff */
+.navbar {
+    background-color: #01579B;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.26);
+    border: none;
+}
+
+/* Brand color */
+.navbar-header a.navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-header a.navbar-brand:hover {
+    color: #40C4FF;
+}
+
+/* Links color */
+.nav.navbar-nav>li>a {
+    color: #FFFFFF;
+}
+
+.nav.navbar-nav>li>a:hover {
+    color: #40C4FF;
+}
+
+/* Hamburger bars color */
+.navbar-header button.navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+
+/* Toggle-button background color when you click it */
+.navbar-header button.navbar-toggle:focus {
+    background-color: #01579B;
+}
+
+/* Toggle-button background color when you hover over it */
+.navbar-header button.navbar-toggle:hover {
+    background-color: #40C4FF;
+}
+
+/* Icon stuff */
 .fa {
     font-size: 2em;
+    color: #FFFFFF;
 }
 
-.navbar-right {
-    height: 60px;
+.fa:hover {
+    color: #40C4FF;
 }
 
 li a.social-icons {
-    padding: 15px 20px 15px 20px;
     float: left;
-    text-align: left;
+    padding: 12px 15px;
+}
+
+.section-heading {
+    color: #FFAB40;
+}
+
+.sub-heading {
+    color: #03A9F4;
+}
+
+.no-padding {
+    padding: 0;
 }
 
 .footer {
