@@ -45,7 +45,7 @@
         </li>
         <li>
           <a class="btn btn-social-icon btn-linkedin social-icons"
-             href="https://linkedin.com/pub/charlie-hebert/53/32b/891/" target="_blank">
+             href="https://www.linkedin.com/in/hebertc" target="_blank">
             <i class="fa fa-linkedin-square"></i>
           </a>
         </li>
