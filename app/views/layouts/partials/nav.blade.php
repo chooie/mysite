@@ -27,7 +27,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li>
           <a class="btn btn-social-icon btn-facebook social-icons"
-             href="https://www.facebook.com/Chewy223" target="_blank">
+             href="https://www.facebook.com/hebertc92" target="_blank">
             <i class="fa fa-facebook-square"></i>
           </a>
         </li>
